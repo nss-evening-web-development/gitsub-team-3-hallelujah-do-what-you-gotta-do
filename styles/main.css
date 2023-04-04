@@ -1,0 +1,217 @@
+.profile-div {
+  width: 25%;
+}
+
+.content-div {
+  width: 75%;
+}
+
+.page-container {
+  display: flex;
+}
+
+.card.profile-card {
+  height: 100%;
+}
+
+.card-img {
+  border-radius: 50%;
+  padding: 37px;
+}
+
+.navbar-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-img {
+  height: 40px;
+  margin: 5px 0;
+}
+
+.navbar-footer.navbar-nav.nav-item {
+  display: flex;
+}
+
+/* Repo Page Styles vvvvvv elf */
+.red-star {
+  color: red;
+}
+
+.form-div-container {
+  margin-bottom: 50px;
+  border-top: solid lightgray 1px;
+}
+
+.form-div-container>*,
+.card-div-container,
+.repo-page-input-top {
+  padding: 10px;
+}
+
+.form-div-container>h3 {
+  font-size: 23px;
+  margin: 0;
+}
+
+.repo-page-input-top {
+  border-bottom: solid lightgray 1px;
+}
+
+.card-div-container {
+  height: 40vh;
+  width: 75%;
+}
+
+.repo-card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bi,
+.star-span {
+  pointer-events: none;
+}
+
+.js-icon {
+  color: #f1e05a;
+}
+
+.css-icon {
+  color: #563d7c;
+}
+
+.html-icon {
+  color: #e44b23;
+}
+
+/* Repo Page Styles ^^^^ elf */
+
+/*overview Style*/
+.scroll {
+  width: 800px;
+  height: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+  border:solid white 1px;
+}
+
+.overview-card {
+  margin-bottom: 10px;
+  border:solid grey 1px;
+  border-radius:15px;
+  width:100%;
+  padding:5px;
+}
+
+.overview-sub-title{
+  margin:5px;
+  
+}
+
+.overview-sub-title {
+  margin: 5px;
+}
+.overviewBtn{
+  background-color:white;
+  margin:5px;
+  border:solid grey 1px;
+  border-radius:5px;
+}
+.overviewBtn:hover{
+  background-color:grey;
+  color:white;
+}
+.overview-search{
+  border:solid grey 1px;
+  width:800px;
+  height:60px;
+  border-radius:15px;
+  margin-bottom: 4px;
+  padding:10px;
+}
+#overviewSearchDiv{
+border-radius:15px;
+}
+#pinned-card-style{
+padding:5px;
+  border-radius:15px;
+  border:solid grey 1px;
+  width:800px;
+}
+
+
+
+/* packages page styles -- wbv  */
+
+.logo-icon {
+  max-height: 20px;
+  width: auto;
+  margin: 0px 10px 0px 0px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.packages-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.packages-card {
+  margin: 15px;
+}
+
+.package-form-card {
+  /* padding: 10px; */
+  margin: 10px;
+  max-width: 800px;
+  height: auto;
+}
+
+.pack-input {
+  margin: 4px;
+}
+
+.form-intro {
+  margin: 10px 15px 20px 0px;
+}
+
+.pack-form-submit {
+  margin: 15px 5px 10px 5px;
+}
+
+.delete-package-div {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.delete-package-btn {
+  display: none;
+  height: 30px;
+  text-align: center;
+  border: 0px solid black;
+}
+
+.packages-card:hover .delete-package-btn {
+  display: inline-block;
+}
+
+/* end packages css wbv  */
+
+/* Projects Page Styles -- AB */
+
+.projects-form-div-container, .form-group, .date-picker-container, #projectFormBtn, #projectsDivContainer {
+  padding: 10px;
+}
